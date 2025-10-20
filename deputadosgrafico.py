@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 import pandas as pd
 import altair as alt
 
@@ -42,5 +42,5 @@ def main():
 
     st.altair_chart(chart, use_container_width=True)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
